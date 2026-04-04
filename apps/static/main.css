@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+}
+
+.custom-link {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* حالات الرابط */
+.custom-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.custom-link:visited {
+    color: purple;
+}
+
+.custom-link:active {
+    background-color: red;
+}
+
+/* تنسيق عام */
+h1 {
+    text-align: center;
+    color: green;
+}
